@@ -29,9 +29,8 @@ print(v1)
 tamanho = len(v1)
 print(tamanho)
 
-burro = input('Escreva o nome do pior coordenador da uninter: ')
-jegue = burro
-print('Eu, {}, sou muito imbecil'.format(burro))
+prof = input('Escreva o nome do pior coordenador da uninter: ')
+print('Eu, {}, sou não me importo com os alunos'.format(prof))
 
 nota = float(input('Qual nota você dá para a coordenação? '))
 print('O coordenador de ADS tirou nota {}.'.format(nota))
