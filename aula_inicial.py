@@ -34,3 +34,6 @@ print('Eu, {}, sou não me importo com os alunos'.format(prof))
 
 nota = float(input('Qual nota você dá para a coordenação? '))
 print('O coordenador de ADS tirou nota {}.'.format(nota))
+
+
+
