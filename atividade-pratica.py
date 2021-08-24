@@ -17,11 +17,11 @@
 #         print('A nota digitada é inválida. Encerrando programa...')
 
 
-
+# Exercício 1 - Laço de repetição
 while True:
     # input dos dados
-    aluno = input('Nome do aluno: ')
-    nota = float(input('Nota final: '))
+    aluno = input('Nome do aluno: ').capitalize()                                                 # capitalize -> coloca a primeira letra em maiúscula
+    nota = float(input('Nota final: '))                                                           # float -> números decimais
 
     # condicionais e saída de dados
     if (nota >= 0) and (nota <= 2.9):
@@ -37,4 +37,4 @@ while True:
     else:
         if nota <= 0 or nota >= 10:
             print('A nota digitada é inválida. Encerrando programa...')
-            break
+            break                                                                                 # break -> condição de parada do algoritmo
